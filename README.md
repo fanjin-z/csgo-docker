@@ -24,7 +24,7 @@ Add banned users in `cfg/banned_user.cfg`.<br/>
 ### Example
 Run classic casual mode on de_dust2.
 ```
-./srcds -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_active +map de_dust2 +hostname "Counter-Strike:Source Dedicated Server"
+csgo/srcds_run -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_active +map de_dust2
 ```
 
 <br/>**Report any problem to issue page.**<br/>
