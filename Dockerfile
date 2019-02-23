@@ -11,5 +11,5 @@ RUN ./steamcmd.sh \
 	+quit
 
 EXPOSE 27015
-ADD cfg/* csgo/
+ADD cfg/* csgo/csgo/cfg/
 RUN apt-get remove -y wget && apt-get clean && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
